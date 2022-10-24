@@ -1,0 +1,59 @@
+.card {
+    width: 33%;
+    padding: 10px 30px;
+    background-color: #A8C3D7;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.day {
+    font-size: 19px;
+}
+
+.f-input{
+    outline: none;
+    height: 40px;
+    padding: 5px 12px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.f-input:focus {
+    outline: none;
+}
+
+.convert-btn {
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101014;
+    color: white;
+    font-size: 25px;
+}
+
+.convert-btn:hover {
+    cursor: pointer;
+}
+
+.temp-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cel-text{
+    font-size: 30px;
+}
